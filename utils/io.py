@@ -12,5 +12,5 @@ def convert_into_float(data:list)->list[float]:
             float_data.append(float(el))
     return float_data
 
-def last_ind(data):
+def last_ind(data)->int:
     return len(data)
